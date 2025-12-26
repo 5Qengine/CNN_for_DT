@@ -1,0 +1,64 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# =========================
+# Virtual Environment
+# =========================
+.venv/
+venv/
+ENV/
+
+# =========================
+# Jupyter / IPython
+# =========================
+.ipynb_checkpoints/
+.profile_default/
+
+# =========================
+# PyTorch / ML
+# =========================
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+*.h5
+
+# =========================
+# Datasets (중요)
+# =========================
+data/
+dataset/
+datasets/
+input/
+
+# =========================
+# Experiments / Logs
+# =========================
+logs/
+runs/
+wandb/
+lightning_logs/
+tensorboard/
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Temp
+# =========================
+*.log
+*.tmp
+*.swp
